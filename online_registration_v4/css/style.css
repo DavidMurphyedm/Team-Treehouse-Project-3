@@ -94,11 +94,15 @@ input {
  }
 
  input:focus, select:focus, .txt-area:focus {
+    
     color: rgb(201, 25, 127);
     border-color: rgb(231, 13, 78);
     transition: 1.5s;
     transform: scale(1.1);
-}
+    
+     
+    }
+ 
 
 .top-form-part input {
     text-align: right;
@@ -142,9 +146,13 @@ button {
     padding: 25px 0;
     font-size: 24px;
     }
+    button:hover{
+        background-color: #2e67f8;
+        color: black;
+    }
 
 .copy {
-    text-align: center;
+text-align: center;
 }
 
 .container {
@@ -152,11 +160,11 @@ background: whitesmoke;
 }
 
 fieldset {
-    border: none;
+border: none;
 }
 
 #zip {
-    width: 50%;
+width: 50%;
 }
 
 
