@@ -93,13 +93,12 @@ input {
     padding-right: 3px; 
  }
 
- input:focus {
-    
-     background: slategrey;
-     transform: scale(1.1);
-     
-    }
- 
+ input:focus, select:focus, .txt-area:focus {
+    color: rgb(201, 25, 127);
+    border-color: rgb(231, 13, 78);
+    transition: 1.5s;
+    transform: scale(1.1);
+}
 
 .top-form-part input {
     text-align: right;
