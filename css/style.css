@@ -166,6 +166,13 @@ border: none;
 #zip {
 width: 50%;
 }
+.brand-logo {
+    width: 75px;
+    height: 75px;
+    margin-left: 2rem;
+    padding-top: 1rem;
+  }
+
 
 
 
